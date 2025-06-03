@@ -35,3 +35,8 @@
   display: block;
 }
 
+.na {
+  border-color: #999;
+  background-color: #f4f4f4;
+  color: #444;
+}
