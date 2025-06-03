@@ -45,7 +45,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/adsabs/accessibility-performance-reports/tree/master/templates/shared/',
+            'https://github.com/adsabs/accessibility-conformance-reports/blob/master',
         },
         // blog: {
         //   showReadingTime: false,
