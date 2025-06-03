@@ -3,7 +3,7 @@ import styles from './ConformanceBlock.module.css';
 
 export const PartialSupport = ({ children }) => (
   <div className={`${styles.base} ${styles.partial}`}>
-    <span className={styles.label}>🟡 Conformance: PARTIAL SUPPORT</span>
+    <span className={styles.label}>🟡 PARTIAL SUPPORT</span>
     {children}
   </div>
 );
