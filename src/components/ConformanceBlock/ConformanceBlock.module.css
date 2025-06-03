@@ -1,0 +1,37 @@
+.base {
+  padding: 1rem;
+  border-left: 4px solid;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.support {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+
+.partial {
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+  color: #856404;
+}
+
+.noSupport {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+
+.exception {
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+  color: #0c5460;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
