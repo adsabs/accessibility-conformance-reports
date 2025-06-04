@@ -30,7 +30,7 @@ export function Project({ name, children }) {
   }
 
   return (
-    <div className={styles.projectBlock}>
+    <div className={styles.projectBlock} data-project-name={key}>
       <div className={styles.projectHeader}>
         <div className={styles.projectLogoWrapper}>
           {getLogo()}
