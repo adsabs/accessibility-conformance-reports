@@ -3,7 +3,11 @@ const path = require('path');
 const slugify = require('slugify');
 
 const wcagData = require('./wcag.json');
-const outputDir = path.join(__dirname, '_generated');
+const conformanceData = require('./wcag-conformance.json');
+
+const args = process.argv.slice(2);
+const useDocs = args.includes('--docs');
+const outputDir = path.join(__dirname, useDocs ? 'docs' : '_generated');
 
 const slug = (text) => slugify(text, { lower: true, strict: true });
 
@@ -26,6 +30,36 @@ const createCategoryFile = async (dirPath, label, position = 1, collapsed = true
   console.log(`📁 Created _category_.json in ${dirPath}`);
 };
 
+const getConformanceByRefId = (refId) => {
+  const entry = conformanceData.find((item) => item.ref_id === refId);
+  return entry?.apps || [];
+};
+
+const formatConformance = (apps) => {
+  if (!apps.length) return '';
+
+  return apps
+    .map(({ name, conformance }) => {
+      const component = {
+        'support': 'Support',
+        'partial-support': 'PartialSupport',
+        'no-support': 'NoSupport',
+        'not-applicable': 'NotApplicable',
+        'exception': 'Exception',
+        'unknown': 'Unknown',
+      }[conformance.status] || 'Unknown';
+
+      const noteItems = conformance.notes.length
+        ? conformance.notes.map((n) => `<li>${n}</li>`).join('\n')
+        : '';
+
+      const noteBlock = noteItems ? `\n<ul>\n${noteItems}\n</ul>` : '';
+
+      return `<Project name="${name}">\n  <${component}>${noteBlock}</${component}>\n</Project>`;
+    })
+    .join('\n\n');
+};
+
 const generateMarkdownFiles = async () => {
   await fs.ensureDir(outputDir);
 
@@ -43,7 +77,7 @@ const generateMarkdownFiles = async () => {
 
       for (const sc of guideline.success_criteria) {
         const scSlug = `${sc.ref_id}-${slug(sc.title)}`;
-        const fileName = `${scSlug}.md`;
+        const fileName = `${scSlug}.mdx`;
         const filePath = path.join(guidelineDir, fileName);
         const sidebarPos = parseInt(sc.ref_id.split('.').pop(), 10);
 
@@ -69,13 +103,7 @@ ${sc.description}
 
 ## Conformance Notes
 
-:::tip ADS
-_Compliance notes for ADS app go here._
-:::
-
-:::note SciX
-_Compliance notes for SciX app go here._
-:::
+${formatConformance(getConformanceByRefId(sc.ref_id))}
 
 ## References
 

@@ -59,11 +59,10 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'SciX Accessibility Conformance Report',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'SciX Accessibility Conformance Report',
         src: 'img/logo.svg',
       },
       items: [],
