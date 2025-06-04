@@ -17,9 +17,7 @@
         "name": "scix",
         "conformance": {
           "status": "partial-support",
-          "notes": [
-            "Vector images for metrics missing alt text."
-          ]
+          "notes": ["Vector images for metrics missing alt text."]
         }
       }
     ]
@@ -976,7 +974,25 @@
     "description": "A mechanism is available to bypass blocks of content that are repeated on multiple Web pages.",
     "level": "A",
     "url": "https://www.w3.org/TR/WCAG22/#bypass-blocks",
-    "apps": []
+    "apps": [
+      {
+        "name": "ads",
+        "conformance": {
+          "status": "unknown",
+          "notes": []
+        }
+      },
+      {
+        "name": "scix",
+        "conformance": {
+          "status": "partial-support",
+          "notes": [
+            "Cannot skip facet in search results page.",
+            "Cannot skip navigation in abstract pages."
+          ]
+        }
+      }
+    ]
   },
   {
     "ref_id": "2.4.2",
@@ -1007,7 +1023,22 @@
     "description": "If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.",
     "level": "A",
     "url": "https://www.w3.org/TR/WCAG22/#focus-order",
-    "apps": []
+    "apps": [
+      {
+        "name": "ads",
+        "conformance": {
+          "status": "unknown",
+          "notes": []
+        }
+      },
+      {
+        "name": "scix",
+        "conformance": {
+          "status": "support",
+          "notes": []
+        }
+      }
+    ]
   },
   {
     "ref_id": "2.4.4",
@@ -1038,7 +1069,22 @@
     "description": "More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process.",
     "level": "AA",
     "url": "https://www.w3.org/TR/WCAG22/#link-purpose-in-context",
-    "apps": []
+    "apps": [
+      {
+        "name": "ads",
+        "conformance": {
+          "status": "unknown",
+          "notes": []
+        }
+      },
+      {
+        "name": "scix",
+        "conformance": {
+          "status": "support",
+          "notes": []
+        }
+      }
+    ]
   },
   {
     "ref_id": "2.4.6",
@@ -1046,7 +1092,22 @@
     "description": "Headings and labels describe topic or purpose.",
     "level": "AA",
     "url": "https://www.w3.org/TR/WCAG22/#headings-and-labels",
-    "apps": []
+    "apps": [
+      {
+        "name": "ads",
+        "conformance": {
+          "status": "unknown",
+          "notes": []
+        }
+      },
+      {
+        "name": "scix",
+        "conformance": {
+          "status": "support",
+          "notes": []
+        }
+      }
+    ]
   },
   {
     "ref_id": "2.4.7",
@@ -1077,7 +1138,24 @@
     "description": "Information about the user's location within a set of Web pages is available.",
     "level": "AAA",
     "url": "https://www.w3.org/TR/WCAG22/#location",
-    "apps": []
+    "apps": [
+      {
+        "name": "ads",
+        "conformance": {
+          "status": "unknown",
+          "notes": []
+        }
+      },
+      {
+        "name": "scix",
+        "conformance": {
+          "status": "partial-support",
+          "notes": [
+            "Most pages don't indicate its location within the site. Breadcumb might be helpful."
+          ]
+        }
+      }
+    ]
   },
   {
     "ref_id": "2.4.9",
@@ -1108,7 +1186,22 @@
     "description": "Section headings are used to organize the content.",
     "level": "AAA",
     "url": "https://www.w3.org/TR/WCAG22/#section-headings",
-    "apps": []
+    "apps": [
+      {
+        "name": "ads",
+        "conformance": {
+          "status": "unknown",
+          "notes": []
+        }
+      },
+      {
+        "name": "scix",
+        "conformance": {
+          "status": "support",
+          "notes": []
+        }
+      }
+    ]
   },
   {
     "ref_id": "2.4.11",
@@ -1116,7 +1209,22 @@
     "description": "When a user interface component receives keyboard focus, the component is not entirely hidden due to author-created content.",
     "level": "AA",
     "url": "https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum",
-    "apps": []
+    "apps": [
+      {
+        "name": "ads",
+        "conformance": {
+          "status": "unknown",
+          "notes": []
+        }
+      },
+      {
+        "name": "scix",
+        "conformance": {
+          "status": "support",
+          "notes": []
+        }
+      }
+    ]
   },
   {
     "ref_id": "2.4.12",
@@ -1124,7 +1232,22 @@
     "description": "When a user interface component receives keyboard focus, no part of the component is hidden by author-created content.",
     "level": "AAA",
     "url": "https://www.w3.org/TR/WCAG22/#focus-not-obscured-enhanced",
-    "apps": []
+    "apps": [
+      {
+        "name": "ads",
+        "conformance": {
+          "status": "unknown",
+          "notes": []
+        }
+      },
+      {
+        "name": "scix",
+        "conformance": {
+          "status": "support",
+          "notes": []
+        }
+      }
+    ]
   },
   {
     "ref_id": "2.4.13",
@@ -1132,7 +1255,22 @@
     "description": "When the keyboard focus indicator is visible, an area of the focus indicator meets all the following:",
     "level": "AAA",
     "url": "https://www.w3.org/TR/WCAG22/#focus-appearance",
-    "apps": []
+    "apps": [
+      {
+        "name": "ads",
+        "conformance": {
+          "status": "unknown",
+          "notes": []
+        }
+      },
+      {
+        "name": "scix",
+        "conformance": {
+          "status": "support",
+          "notes": []
+        }
+      }
+    ]
   },
   {
     "ref_id": "2.5.1",
@@ -1140,7 +1278,22 @@
     "description": "All functionality that uses multipoint or path-based gestures for operation can be operated with a single pointer without a path-based gesture, unless a multipoint or path-based gesture is essential.",
     "level": "A",
     "url": "https://www.w3.org/TR/WCAG22/#pointer-gestures",
-    "apps": []
+    "apps": [
+      {
+        "name": "ads",
+        "conformance": {
+          "status": "unknown",
+          "notes": []
+        }
+      },
+      {
+        "name": "scix",
+        "conformance": {
+          "status": "support",
+          "notes": []
+        }
+      }
+    ]
   },
   {
     "ref_id": "2.5.2",
@@ -1148,7 +1301,22 @@
     "description": "For functionality that can be operated using a single pointer, at least one of the following is true:",
     "level": "A",
     "url": "https://www.w3.org/TR/WCAG22/#pointer-cancellation",
-    "apps": []
+    "apps": [
+      {
+        "name": "ads",
+        "conformance": {
+          "status": "unknown",
+          "notes": []
+        }
+      },
+      {
+        "name": "scix",
+        "conformance": {
+          "status": "support",
+          "notes": []
+        }
+      }
+    ]
   },
   {
     "ref_id": "2.5.3",
@@ -1179,7 +1347,22 @@
     "description": "Functionality that can be operated by device motion or user motion can also be operated by user interface components and responding to the motion can be disabled to prevent accidental actuation, except when:",
     "level": "A",
     "url": "https://www.w3.org/TR/WCAG22/#motion-actuation",
-    "apps": []
+    "apps": [
+      {
+        "name": "ads",
+        "conformance": {
+          "status": "unknown",
+          "notes": []
+        }
+      },
+      {
+        "name": "scix",
+        "conformance": {
+          "status": "support",
+          "notes": []
+        }
+      }
+    ]
   },
   {
     "ref_id": "2.5.5",
@@ -1210,7 +1393,22 @@
     "description": "Web content does not restrict use of input modalities available on a platform except where the restriction is essential, required to ensure the security of the content, or required to respect user settings.",
     "level": "AAA",
     "url": "https://www.w3.org/TR/WCAG22/#concurrent-input-mechanisms",
-    "apps": []
+    "apps": [
+      {
+        "name": "ads",
+        "conformance": {
+          "status": "unknown",
+          "notes": []
+        }
+      },
+      {
+        "name": "scix",
+        "conformance": {
+          "status": "support",
+          "notes": []
+        }
+      }
+    ]
   },
   {
     "ref_id": "2.5.7",
@@ -1218,7 +1416,22 @@
     "description": "All functionality that uses a dragging movement for operation can be achieved by a single pointer without dragging, unless dragging is essential or the functionality is determined by the user agent and not modified by the author.",
     "level": "AA",
     "url": "https://www.w3.org/TR/WCAG22/#dragging-movements",
-    "apps": []
+    "apps": [
+      {
+        "name": "ads",
+        "conformance": {
+          "status": "unknown",
+          "notes": []
+        }
+      },
+      {
+        "name": "scix",
+        "conformance": {
+          "status": "support",
+          "notes": []
+        }
+      }
+    ]
   },
   {
     "ref_id": "2.5.8",
