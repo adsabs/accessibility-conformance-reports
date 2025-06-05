@@ -32,7 +32,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "not-applicable",
           "notes": []
         }
       },
@@ -55,7 +55,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "not-applicable",
           "notes": []
         }
       },
@@ -78,7 +78,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "not-applicable",
           "notes": []
         }
       },
@@ -101,7 +101,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "not-applicable",
           "notes": []
         }
       },
@@ -124,7 +124,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "not-applicable",
           "notes": []
         }
       },
@@ -147,7 +147,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "not-applicable",
           "notes": []
         }
       },
@@ -170,7 +170,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "not-applicable",
           "notes": []
         }
       },
@@ -193,7 +193,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "not-applicable",
           "notes": []
         }
       },
@@ -216,7 +216,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "not-applicable",
           "notes": []
         }
       },
@@ -262,7 +262,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -285,7 +285,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -308,7 +308,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -354,7 +354,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "partial-support",
           "notes": []
         }
       },
@@ -400,7 +400,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "not-applicable",
           "notes": []
         }
       },
@@ -469,7 +469,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -515,7 +515,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "not-applicable",
           "notes": []
         }
       },
@@ -561,15 +561,15 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
-          "notes": []
+          "status": "support",
+          "notes": ["Only logo should contain image text"]
         }
       },
       {
         "name": "scix",
         "conformance": {
           "status": "support",
-          "notes": []
+          "notes": ["Only logo should contain image text"]
         }
       }
     ]
@@ -607,7 +607,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -653,7 +653,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -699,8 +699,8 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
-          "notes": []
+          "status": "partial-support",
+          "notes": ["A way to skip out of facets"]
         }
       },
       {
@@ -709,7 +709,8 @@
           "status": "partial-support",
           "notes": [
             "The year histogram filter is not easy to get out of, especially when search results covers large number of years.",
-            "Viz -> Results Graph, once focus on the individual dot on the graph, cannot skip out of the graph."
+            "Viz -> Results Graph, once focus on the individual dot on the graph, cannot skip out of the graph.",
+            "A way to skip out of facets"
           ]
         }
       }
@@ -748,7 +749,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "not-applicable",
           "notes": []
         }
       },
@@ -794,7 +795,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -817,7 +818,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -840,7 +841,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -863,7 +864,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "no-support",
           "notes": []
         }
       },
@@ -886,7 +887,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -932,7 +933,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -955,7 +956,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -978,8 +979,11 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
-          "notes": []
+          "status": "partial-support",
+          "notes": [
+            "Cannot skip facet in search results page.",
+            "Cannot skip navigation in abstract pages."
+          ]
         }
       },
       {
@@ -987,6 +991,7 @@
         "conformance": {
           "status": "partial-support",
           "notes": [
+            "Cannot skip out of histogram",
             "Cannot skip facet in search results page.",
             "Cannot skip navigation in abstract pages."
           ]
@@ -1004,7 +1009,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1027,7 +1032,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1073,7 +1078,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1096,7 +1101,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1142,8 +1147,10 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
-          "notes": []
+          "status": "partial-support",
+          "notes": [
+            "Most pages don't indicate its location within the site. Breadcumb might be helpful."
+          ]
         }
       },
       {
@@ -1190,7 +1197,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1213,7 +1220,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1236,7 +1243,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1259,7 +1266,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1282,7 +1289,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1305,7 +1312,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1351,7 +1358,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1397,7 +1404,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1420,7 +1427,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1512,14 +1519,14 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "no-support",
           "notes": []
         }
       },
       {
         "name": "scix",
         "conformance": {
-          "status": "support",
+          "status": "no-support",
           "notes": []
         }
       }
@@ -1558,7 +1565,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "no-support",
           "notes": []
         }
       },
@@ -1581,7 +1588,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "no-support",
           "notes": []
         }
       },
@@ -1604,7 +1611,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1627,7 +1634,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1650,7 +1657,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1673,7 +1680,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1719,7 +1726,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1765,7 +1772,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1788,7 +1795,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1811,7 +1818,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "not-applicable",
           "notes": []
         }
       },
@@ -1834,7 +1841,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1857,7 +1864,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1880,7 +1887,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1903,7 +1910,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1926,7 +1933,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
