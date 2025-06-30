@@ -9,7 +9,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -239,7 +239,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -331,7 +331,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -377,7 +377,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -423,7 +423,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -446,8 +446,8 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
-          "notes": []
+          "status": "partial-support",
+          "notes": ["Viewport is set to not scalable, this needs to be updated"]
         }
       },
       {
@@ -492,7 +492,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -538,7 +538,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -584,8 +584,8 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
-          "notes": []
+          "status": "partial-support",
+          "notes": ["Viewport is set to not scalable, this needs to be updated"]
         }
       },
       {
@@ -630,7 +630,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -676,7 +676,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -726,7 +726,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -772,7 +772,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -910,7 +910,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1055,7 +1055,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1124,7 +1124,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1174,7 +1174,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1335,7 +1335,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1381,7 +1381,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1450,7 +1450,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1473,7 +1473,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1496,7 +1496,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1542,7 +1542,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "no-support",
           "notes": []
         }
       },
@@ -1703,7 +1703,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1749,7 +1749,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -1979,7 +1979,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
@@ -2002,7 +2002,7 @@
       {
         "name": "ads",
         "conformance": {
-          "status": "unknown",
+          "status": "support",
           "notes": []
         }
       },
