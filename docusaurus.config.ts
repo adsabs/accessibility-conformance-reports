@@ -65,7 +65,20 @@ const config: Config = {
         alt: 'SciX Accessibility Conformance Report',
         src: 'img/logo.svg',
       },
-      items: [],
+      items: [
+        {
+          href: '/pdf/wcag-full.pdf',
+          label: '📄 Full PDF',
+          position: 'right',
+          target: '_blank',
+        },
+        {
+          href: '/pdf/wcag-summary.pdf',
+          label: '📊 Summary PDF',
+          position: 'right',
+          target: '_blank',
+        },
+      ],
     },
     footer: {
       style: 'dark',
