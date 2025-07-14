@@ -25,7 +25,7 @@ jobs:
       - name: Setup Node.js with Corepack
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Enable Corepack and Install pnpm
         run: |
@@ -42,6 +42,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      - name: Download puppeteer browser
+        run: pnpm dlx puppeteer browsers install chrome
 
       - name: Build Docusaurus site
         run: pnpm build
