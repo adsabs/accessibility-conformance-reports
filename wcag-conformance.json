@@ -16,8 +16,8 @@
       {
         "name": "scix",
         "conformance": {
-          "status": "partial-support",
-          "notes": ["Vector images for metrics missing alt text."]
+          "status": "support",
+          "notes": []
         }
       }
     ]
@@ -545,7 +545,7 @@
       {
         "name": "scix",
         "conformance": {
-          "status": "partial-support",
+          "status": "support",
           "notes": []
         }
       }
@@ -706,12 +706,8 @@
       {
         "name": "scix",
         "conformance": {
-          "status": "partial-support",
-          "notes": [
-            "The year histogram filter is not easy to get out of, especially when search results covers large number of years.",
-            "Viz -> Results Graph, once focus on the individual dot on the graph, cannot skip out of the graph.",
-            "A way to skip out of facets"
-          ]
+          "status": "support",
+          "notes": []
         }
       }
     ]
@@ -989,12 +985,8 @@
       {
         "name": "scix",
         "conformance": {
-          "status": "partial-support",
-          "notes": [
-            "Cannot skip out of histogram",
-            "Cannot skip facet in search results page.",
-            "Cannot skip navigation in abstract pages."
-          ]
+          "status": "support",
+          "notes": []
         }
       }
     ]
@@ -1986,7 +1978,7 @@
       {
         "name": "scix",
         "conformance": {
-          "status": "partial-support",
+          "status": "support",
           "notes": []
         }
       }
